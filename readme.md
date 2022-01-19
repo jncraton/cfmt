@@ -14,3 +14,8 @@ Usage
 ```
 cfmt {src.c}
 ```
+
+Testing
+-------
+
+Basic tests are included and can be run using `make test`.
