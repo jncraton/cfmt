@@ -4,9 +4,9 @@ cfmt: cfmt.c
 	gcc $< -Wall -Wextra -o $@
 
 test: cfmt
-	cp test.c formatted.c
-	./cfmt formatted.c
-	cmp formatted.c expected.c
+	cp test/test.c test/formatted.c
+	./cfmt test/formatted.c
+	cmp test/formatted.c test/expected.c
 
 clean:
-	rm -f cfmt
+	rm -f cfmt test/formatted.c
