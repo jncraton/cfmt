@@ -34,3 +34,5 @@ This assignment will require some review of the following:
 - Pointers
 
 It might be worth refreshing your knowledge on these topics. `man` (e.g. `man 2 close`) may be helpful.
+
+The file `cfmt.c` and a basic `makefile` are provided. You should not need to use any additional libraries beyond what is already included in `cfmt.c`.
