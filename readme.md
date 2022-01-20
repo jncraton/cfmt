@@ -23,3 +23,14 @@ Testing
 -------
 
 Basic tests are included and can be run using `make test`.
+
+Notes
+-----
+
+This assignment will require some review of the following:
+
+- The C language
+- Common system calls (`open`, `read`, `write`, `close`)
+- Pointers
+
+It might be worth refreshing your knowledge on these topics. `man` (e.g. `man 2 close`) may be helpful.
