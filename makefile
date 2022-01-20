@@ -1,6 +1,6 @@
 all: cfmt
 
-cfmt: cfmt-impl.c
+cfmt: cfmt.c
 	gcc $< -Wall -Wextra -o $@
 
 test: cfmt
