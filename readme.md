@@ -3,6 +3,18 @@ cfmt
 
 A simple formatter for C code.
 
+Learning Objectives
+-------------------
+
+After completing this assignment, students will be able to:
+
+- Compile and run C programs
+- Use pointers to access memory
+- Read and write from files in C
+
+Formatter
+---------
+
 When run against a C source code file, `cfmt` will convert the file to:
 
 - Use spaces for indentation. Tabs should be converted to 4 spaces.
